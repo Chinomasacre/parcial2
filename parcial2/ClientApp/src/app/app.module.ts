@@ -11,6 +11,8 @@ import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { RegistropersonaComponent } from './parcial2/registropersona/registropersona.component';
 import { AppRoutingModule } from './app-routing.module';
+import { PersonaService} from './services/persona.service';
+
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 
@@ -36,7 +38,7 @@ import { HeaderComponent } from './header/header.component';
 ], { relativeLinkResolution: 'legacy' }),
     AppRoutingModule
   ],
-  providers: [],
+  providers: [PersonaService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

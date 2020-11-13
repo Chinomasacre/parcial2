@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AbstractControl, FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormGroup, FormBuilder, Validators, AbstractControl} from '@angular/forms';
 import { PersonaService } from 'src/app/services/persona.service';
 import { Persona } from '../models/persona';
 
@@ -8,12 +8,13 @@ import { Persona } from '../models/persona';
   templateUrl: './registropersona.component.html',
   styleUrls: ['./registropersona.component.css']
 })
-export class RegistropersonaComponent implements OnInit {
+
+export class RegistropersonaComponent implements OnInit{
   formGroup: FormGroup;
   persona: Persona;
   constructor(private personaService: PersonaService,private formBuilder: FormBuilder) { }
 
-  ngOnInit() {
+  ngOnInit(){
     this.persona = new Persona();
     this.buildForm();
   }

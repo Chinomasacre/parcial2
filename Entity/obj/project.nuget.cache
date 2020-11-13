@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "syg4QMG/Y7zQnCxgA1GkEathQq7N5t0PvUvxvF4DklIEEGPhSGj5dGfl56FgwXz9rYTQ3POpjO5TXGS7yY1fBg==",
+  "dgSpecHash": "+ZXA1JqJdCWadgZT5OH/0Pa0Rs2oT/DnOEbYcgIyYEg3bOZ/w+rhpl+DoXey64hYwlXdk+5xzm3NArFyPaHHZw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Home\\Desktop\\2020-2\\Parcial2\\Entity\\Entity.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Home\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Home\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Home\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0-rc.2.20475.5\\system.componentmodel.annotations.5.0.0-rc.2.20475.5.nupkg.sha512"
   ],
   "logs": []
 }
