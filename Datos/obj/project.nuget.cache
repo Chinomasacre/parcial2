@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q/fQdeXDeXoJsK7Vrv4Y9UEqip6E9P0B9z1SQ5/DmFt2Rv5LNnDpAG65Ui2VghF+J9TI/wyO67Qz1g5ivcWHXw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Home\\Desktop\\2020-2\\Parcial2\\Datos\\Datos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Home\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Home\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
