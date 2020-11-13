@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-md-6 offset-md-3">
             <h2>Registro de Tercero</h2>
-            <form [FormGroup]="formGroup">
+            <form [formGroup]="formGroup">
                 <div class="form-group">
                     <label>Tipo de Identificacion</label>
                     <input type="text"  name="tipodocumento" formControlName="tipodocumento"
@@ -10,7 +10,6 @@
                     <div *ngIf="control.tipodocumento.errors" class="invalid-feedback">
                         <div *ngIf="control.tipodocumento.errors.required">Se require el tipo</div>
                     </div>
-
                 </div>                        
                 <div class="form-group">
                         <label>Numero de Identificacion</label>

@@ -19,13 +19,17 @@ export class RegistropersonaComponent implements OnInit{
     this.buildForm();
   }
   private buildForm(){
+    this.persona.tipodocumento = '';
     this.persona.identificacion = '';
     this.persona.nombre = '';
     this.persona.direccion = '';
     this.persona.telefono = '';
     this.persona.pais = '';
+    this.persona.departamento = '';
+    this.persona.ciudad = '';
 
     this.formGroup = this.formBuilder.group({
+      tipodocumento: [this.persona.direccion, [Validators.required, Validators.min(1)]],
       identificacion: [this.persona.identificacion, Validators.required],
       nombre: [this.persona.nombre, Validators.required],
       direccion: [this.persona.direccion, [Validators.required, Validators.min(1)]],
